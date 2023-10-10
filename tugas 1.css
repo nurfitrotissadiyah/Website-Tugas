@@ -1,0 +1,64 @@
+body, h1, h2, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+header h1 {
+    font-size: 24px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling sections */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Gaya tabel default untuk semua tabel kecuali yang ada di #jadwal-kuliah */
+table:not(#jadwal-kuliah) {
+    border: none;
+}
+#jadwal-kuliah table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#jadwal-kuliah th,
+#jadwal-kuliah td {
+    padding: 10px;
+}
+#jadwal-kuliah td {
+    border-right: 1px solid #ddd;
+}
+
+/* Styling links */
+a {
+    color: #007BFF;
+}
+
+/* Gaya tabel di bagian "Home" */
+#home table {
+    text-align: left;
+}
+
+body {
+    background-color: #f2f2f2;
+}
